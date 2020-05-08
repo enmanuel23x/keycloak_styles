@@ -1,0 +1,87 @@
+.login-pf {
+    background-image: none;
+    background-color: white;
+}
+.login-pf-page{
+    padding-top: 0!important;
+}
+.login-pf-page-header{
+    display: none!important;
+}
+.login-pf-page .login-pf-accounts{
+    margin-right: 0!important;
+    display: block;
+    min-height: 49vw;
+}
+.login-pf-page .login-pf-accounts .row{
+    display: grid;
+}
+.login-pf-page .login-pf-social-section:last-of-type {
+    border: none;
+    padding: 0;
+}
+.login-pf-page .login-pf-social-section:first-of-type {
+    max-width: 100%;
+    width: auto;
+}
+.login-pf-page .login-pf-social-section:last-of-type {
+    text-align: center;
+    margin: auto;
+}
+.login-pf body {
+    background: url(../img/login-min.png) 63vw 0vh;
+    background-size: contain;
+}
+.zocial.google:before {
+    content: ' ';
+    background-image: url(../img/google.svg);
+    background-size: 49px 50px;
+    height: 50px;
+    width: 50px;
+    margin-top: -11px;
+}
+.login-pf-page .login-pf-social-link a {
+    padding: 12px 0;
+    background: white;
+}
+.login-pf-header{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 65px;
+}
+.login-pf-page .btn-primary{
+    background: #29B2CC;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 35px;
+    text-shadow: none;
+    outline: none !important;
+}
+.login-pf-page .btn-primary:hover{
+    background: #33DFFF;
+}
+#kc-form{
+    padding: 0px 15px;
+}
+.login-pf-social-section{
+    margin-bottom: 1rem;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.login-pf-page .form-control {
+    background: #f7f9fc;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 6px;
+    height: 40px;
+}
+.card-pf{
+    box-shadow: none;
+}
