@@ -146,3 +146,10 @@ a#kc-current-locale-link::after {
     content: "\2c5";
     margin-left: 4px;
 }
+.login-pf-page .login-pf-social-link a span{
+    display: none;
+}
+.login-pf-page .login-pf-social-link a::after{
+    color: #72767b;
+    content: "Iniciar sesión con Google";
+}
